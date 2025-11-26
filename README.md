@@ -51,7 +51,7 @@ We will analyze the event GW190701_203306 with different detector configurations
 
 
 The tutorial can either be run from the command line or the jupyter notebook 
-`02_inference_with_pretrained_models/tutorial_inference_DINGO-T1.ipynb` which includes more detailed comments and 
+`02_inference_with_pretrained_models/tutorial_inference_with_DINGO-T1.ipynb` which includes more detailed comments and 
 plotting code.
 
 ### 1. Download the DINGO-T1 model from Zenodo
@@ -74,7 +74,7 @@ inference. This can be easily adjusted in the settings file.
 If you prefer to run this tutorial locally in a jupyter notebook, you might need to install jupyter lab first 
 (`pip install jupyterlab`).
 For further details and plotting code, please refer to 
-`02_inference_with_pretrained_models/tutorial_inference_DINGO-T1.ipynb`.
+`02_inference_with_pretrained_models/tutorial_inference_with_DINGO-T1.ipynb`.
 
 ## Training DINGO-T1
 If you are interested in training a DINGO-T1 model, it is recommended to check the availability of 
