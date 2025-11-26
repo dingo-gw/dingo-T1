@@ -1,0 +1,8 @@
+# Running on host: 
+g184
+# CUDA information:
+cuDNN version: 90100
+CUDA version: 12.1
+device count: 8
+device name: NVIDIA A100-SXM4-80GB
+memory (GB): 79.3
