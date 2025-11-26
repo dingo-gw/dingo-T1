@@ -1,0 +1,404 @@
+events:
+  GW190408_181802:
+    detectors:
+    - H1
+    - L1
+    - V1
+    gps_time: 1238782700.29
+    maximum-frequency: 896.0
+    minimum-frequency: 20.0
+  GW190413_052954:
+    detectors:
+    - H1
+    - L1
+    - V1
+    gps_time: 1239168612.49
+    maximum-frequency: 896.0
+    minimum-frequency: 20.0
+  GW190413_134308:
+    detectors:
+    - H1
+    - L1
+    - V1
+    gps_time: 1239198206.72
+    maximum-frequency: 448.0
+    minimum-frequency:
+      H1: 20
+      L1: 35
+      V1: 20
+  GW190421_213856:
+    detectors:
+    - H1
+    - L1
+    gps_time: 1239917954.25
+    maximum-frequency: 448.0
+    minimum-frequency: 20.0
+  GW190426_190642:
+    detectors:
+    - H1
+    - L1
+    - V1
+    gps_time: 1240340820.62
+    maximum-frequency: 448.0
+    minimum-frequency: 20.0
+  GW190503_185404:
+    detectors:
+    - H1
+    - L1
+    - V1
+    gps_time: 1240944862.29
+    maximum-frequency: 896.0
+    minimum-frequency: 20.0
+  GW190513_205428:
+    detectors:
+    - H1
+    - L1
+    - V1
+    gps_time: 1241816086.75
+    maximum-frequency: 896.0
+    minimum-frequency: 20.0
+  GW190514_065416:
+    detectors:
+    - H1
+    - L1
+    gps_time: 1241852074.84
+    maximum-frequency: 448.0
+    minimum-frequency:
+      H1: 20
+      L1: 50
+  GW190517_055101:
+    detectors:
+    - H1
+    - L1
+    - V1
+    gps_time: 1242107479.83
+    maximum-frequency: 896.0
+    minimum-frequency: 20.0
+    psd-start-time: 1024
+  GW190519_153544:
+    detectors:
+    - H1
+    - L1
+    - V1
+    gps_time: 1242315362.38
+    maximum-frequency: 448.0
+    minimum-frequency: 20.0
+  GW190521_074359:
+    detectors:
+    - H1
+    - L1
+    gps_time: 1242459857.48
+    maximum-frequency: 224.0
+    minimum-frequency: 20.0
+  GW190527_092055:
+    detectors:
+    - H1
+    - L1
+    gps_time: 1242984073.79
+    maximum-frequency: 896.0
+    minimum-frequency: 20.0
+  GW190602_175927:
+    detectors:
+    - H1
+    - L1
+    - V1
+    gps_time: 1243533585.1
+    maximum-frequency: 448.0
+    minimum-frequency: 20.0
+  GW190620_030421:
+    detectors:
+    - L1
+    - V1
+    gps_time: 1245035079.3
+    maximum-frequency: 448.0
+    minimum-frequency: 20.0
+  GW190630_185205:
+    detectors:
+    - L1
+    - V1
+    gps_time: 1245955943.175
+    maximum-frequency: 896.0
+    minimum-frequency: 20.0
+  GW190701_203306:
+    detectors:
+    - H1
+    - L1
+    - V1
+    gps_time: 1246048404.56
+    maximum-frequency: 448.0
+    minimum-frequency: 20.0
+  GW190706_222641:
+    detectors:
+    - H1
+    - L1
+    - V1
+    gps_time: 1246487219.32
+    maximum-frequency: 896.0
+    minimum-frequency: 20.0
+  GW190719_215514:
+    detectors:
+    - H1
+    - L1
+    gps_time: 1247608532.92
+    maximum-frequency: 896.0
+    minimum-frequency: 20.0
+  GW190727_060333:
+    detectors:
+    - H1
+    - L1
+    - V1
+    gps_time: 1248242632.0
+    maximum-frequency: 896.0
+    minimum-frequency:
+      H1: 20
+      L1: 50
+      V1: 20
+  GW190731_140936:
+    detectors:
+    - H1
+    - L1
+    gps_time: 1248617394.63
+    maximum-frequency: 896.0
+    minimum-frequency: 20.0
+  GW190803_022701:
+    detectors:
+    - H1
+    - L1
+    - V1
+    gps_time: 1248834439.88
+    maximum-frequency: 896.0
+    minimum-frequency: 20.0
+  GW190828_063405:
+    detectors:
+    - H1
+    - L1
+    - V1
+    gps_time: 1251009263.75
+    maximum-frequency: 896.0
+    minimum-frequency: 20.0
+  GW190910_112807:
+    detectors:
+    - L1
+    - V1
+    gps_time: 1252150105.32
+    maximum-frequency: 448.0
+    minimum-frequency: 20.0
+  GW190915_235702:
+    detectors:
+    - H1
+    - L1
+    - V1
+    gps_time: 1252627040.7
+    maximum-frequency: 896.0
+    minimum-frequency: 20.0
+  GW190916_200658:
+    detectors:
+    - H1
+    - L1
+    - V1
+    gps_time: 1252699636.89
+    maximum-frequency: 896.0
+    minimum-frequency: 20.0
+  GW190925_232845:
+    detectors:
+    - H1
+    - V1
+    gps_time: 1253489343.11
+    maximum-frequency: 1792.0
+    minimum-frequency: 20.0
+  GW190926_050336:
+    detectors:
+    - H1
+    - L1
+    - V1
+    gps_time: 1253509434.065
+    maximum-frequency: 896.0
+    minimum-frequency: 20.0
+  GW190929_012149:
+    detectors:
+    - H1
+    - L1
+    - V1
+    gps_time: 1253755327.495
+    maximum-frequency: 896.0
+    minimum-frequency: 20.0
+  GW191109_010717:
+    detectors:
+    - H1
+    - L1
+    gps_time: 1257296855.21
+    maximum-frequency: 448.0
+    minimum-frequency: 20.0
+  GW191127_050227:
+    detectors:
+    - H1
+    - L1
+    - V1
+    gps_time: 1258866165.55
+    maximum-frequency: 896.0
+    minimum-frequency: 20.0
+    suppress: &id001
+      V1:
+      - 46.0
+      - 51.0
+  GW191204_110529:
+    detectors:
+    - H1
+    - L1
+    gps_time: 1259492747.54
+    maximum-frequency: 896.0
+    minimum-frequency: 20.0
+  GW191215_223052:
+    detectors:
+    - H1
+    - L1
+    - V1
+    gps_time: 1260484270.335
+    maximum-frequency: 896.0
+    minimum-frequency: 20.0
+    suppress: *id001
+  GW191222_033537:
+    detectors:
+    - H1
+    - L1
+    gps_time: 1261020955.115
+    maximum-frequency: 448.0
+    minimum-frequency: 20.0
+  GW191230_180458:
+    detectors:
+    - H1
+    - L1
+    - V1
+    gps_time: 1261764316.389
+    maximum-frequency: 896.0
+    minimum-frequency: 20.0
+    suppress: *id001
+  GW200112_155838:
+    detectors:
+    - L1
+    - V1
+    gps_time: 1262879936.06
+    maximum-frequency: 896.0
+    minimum-frequency: 20.0
+    suppress: *id001
+  GW200128_022011:
+    detectors:
+    - H1
+    - L1
+    gps_time: 1264213229.89
+    maximum-frequency: 448.0
+    minimum-frequency: 20.0
+  GW200129_065458:
+    detectors:
+    - H1
+    - L1
+    - V1
+    gps_time: 1264316116.4
+    maximum-frequency: 896.0
+    minimum-frequency: 20.0
+    suppress: *id001
+  GW200208_130117:
+    detectors:
+    - H1
+    - L1
+    - V1
+    gps_time: 1265202095.94
+    maximum-frequency: 448.0
+    minimum-frequency: 20.0
+    suppress: *id001
+  GW200208_222617:
+    detectors:
+    - H1
+    - L1
+    - V1
+    gps_time: 1265235995.94
+    maximum-frequency: 1792.0
+    minimum-frequency: 20.0
+    suppress: *id001
+  GW200209_085452:
+    detectors:
+    - H1
+    - L1
+    - V1
+    gps_time: 1265273710.18
+    maximum-frequency: 896.0
+    minimum-frequency: 20.0
+    suppress: *id001
+  GW200216_220804:
+    detectors:
+    - H1
+    - L1
+    - V1
+    gps_time: 1265926102.8
+    maximum-frequency: 896.0
+    minimum-frequency: 20.0
+    suppress: *id001
+  GW200219_094415:
+    detectors:
+    - H1
+    - L1
+    - V1
+    gps_time: 1266140673.16
+    maximum-frequency: 896.0
+    minimum-frequency: 20.0
+    suppress: *id001
+  GW200220_061928:
+    detectors:
+    - H1
+    - L1
+    - V1
+    gps_time: 1266214786.64
+    maximum-frequency: 224.0
+    minimum-frequency: 20.0
+    suppress: *id001
+  GW200220_124850:
+    detectors:
+    - H1
+    - L1
+    gps_time: 1266238148.145
+    maximum-frequency: 896.0
+    minimum-frequency: 20.0
+  GW200224_222234:
+    detectors:
+    - H1
+    - L1
+    - V1
+    gps_time: 1266618172.394
+    maximum-frequency: 448.0
+    minimum-frequency: 20.0
+    suppress: *id001
+  GW200302_015811:
+    detectors:
+    - H1
+    - V1
+    gps_time: 1267149509.51
+    maximum-frequency: 896.0
+    minimum-frequency: 20.0
+    suppress: *id001
+  GW200306_093714:
+    detectors:
+    - H1
+    - L1
+    gps_time: 1267522652.12
+    maximum-frequency: 896.0
+    minimum-frequency: 20.0
+  GW200311_115853:
+    detectors:
+    - H1
+    - L1
+    - V1
+    gps_time: 1267963151.38
+    maximum-frequency: 896.0
+    minimum-frequency: 20.0
+    suppress: *id001
+info:
+  detector_counts:
+    H1: 0
+    H1_L1: 12
+    H1_L1_V1: 30
+    H1_V1: 2
+    L1: 0
+    L1_V1: 4
+    V1: 0
+  num_all_events: 81
+  num_compatible_events: 50
