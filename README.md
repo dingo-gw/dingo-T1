@@ -3,7 +3,7 @@
 This is the companion repository for the preprint `Flexible Gravitational-Wave Parameter Estimation with Transformers`, 
 which introduces a flexible transformer-based architecture paired with a training strategy that enables adaptation 
 to diverse gravitational wave~(GW) analysis settings at inference time.
-We call the final model DINGO-T1 (DINGO Transforer, version 1) which we make publicly available on 
+We call the final model DINGO-T1 (DINGO Transformer, version 1) which we make publicly available on 
 [Zenodo](https://zenodo.org/records/17726076).
 
 This repository contains a tutorial showing how to download the DINGO-T1 and run inference on an example event.
@@ -47,7 +47,7 @@ GW190701_203306.
 We will analyze the event GW190701_203306 with different detector configurations 
 (H vs. HL vs. HLV) which replicates an example study from the paper, and compare the posterior distributions:
 
-<img src="00_figures/corner_plot_comparison_GW190701_203306_H_vs_HL_vs_HLV.png" width="50%">
+<img src="00_figures/corner_plot_comparison_GW190701_203306_H_vs_HL_vs_HLV.png">
 
 
 The tutorial can be run locally from the command line or the jupyter notebook 
