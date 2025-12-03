@@ -12,7 +12,7 @@ Additionally, we provide training and inference settings for reproducibility.
 This code builds on the [dingo](https://github.com/dingo-gw/dingo) package and all changes are made within
 the existing code base.
 
-![alt text](00_figures/poster_dingo-t1.png)
+![alt text](00_figures/poster_DINGO-T1.png)
 
 ## Set up
 To run the code, clone the `dingo-t1` branch of the 
