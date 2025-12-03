@@ -1,6 +1,6 @@
 # DINGO-T1: Flexible Gravitational-Wave Parameter Estimation with Transformers
 
-This is the companion repository for the preprint `Flexible Gravitational-Wave Parameter Estimation with Transformers`, 
+This is the companion repository for the preprint "Flexible Gravitational-Wave Parameter Estimation with Transformers", 
 which introduces a flexible transformer-based architecture paired with a training strategy that enables adaptation 
 to diverse gravitational wave~(GW) analysis settings at inference time.
 We call the final model DINGO-T1 (DINGO Transformer, version 1) which we make publicly available on 
@@ -12,10 +12,10 @@ Additionally, we provide training and inference settings for reproducibility.
 This code builds on the [dingo](https://github.com/dingo-gw/dingo) package and all changes are made within
 the existing code base.
 
-![alt text](00_figures/dingo-t1_architecture.png)
+![alt text](00_figures/poster_dingo-t1.png)
 
 ## Set up
-First, clone the `dingo-t1` branch of the 
+To run the code, clone the `dingo-t1` branch of the 
 `dingo` repository.
 
 ```sh
@@ -50,7 +50,7 @@ We will analyze the event GW190701_203306 with different detector configurations
 <img src="00_figures/corner_plot_comparison_GW190701_203306_H_vs_HL_vs_HLV.png">
 
 
-The tutorial can be run locally from the command line or the jupyter notebook 
+The tutorial can be run locally from the command line or in the jupyter notebook 
 `02_inference_with_pretrained_models/tutorial_inference_with_DINGO-T1.ipynb` which includes more detailed comments and 
 plotting code. 
 It is also possible to directly open and run the notebook in Google Colab by clicking on this badge:
@@ -145,14 +145,21 @@ Depending on the available resources some settings may need to be adjusted. This
 
 Please also refer to the documentation: https://dingo-gw.readthedocs.io.
 
-
 ## References
 
 ```bibtex
-TODO: update
+@misc{kofler:2025,
+      title={Flexible Gravitational-Wave Parameter Estimation with Transformers}, 
+      author={Annalena Kofler and Maximilian Dax and Stephen R. Green and Jonas Wildberger and Nihar Gupte and Jakob H. Macke and Jonathan Gair and Alessandra Buonanno and Bernhard Schölkopf},
+      year={2025},
+      eprint={2512.02968},
+      archivePrefix={arXiv},
+      primaryClass={gr-qc},
+      url={https://arxiv.org/abs/2512.02968}, 
+}
 ```
 
-If you use the dingo code, please also cite the following (and 
+If this is based on the `dingo-gw` code, please also cite the following (and 
 refer to the Reference section of the 
 [dingo README](https://github.com/dingo-gw/dingo#references) for other optional 
 citations).
