@@ -53,9 +53,7 @@ We will analyze the event GW190701_203306 with different detector configurations
 The tutorial can be run locally from the command line or in the jupyter notebook 
 `02_inference_with_pretrained_models/tutorial_inference_with_DINGO-T1.ipynb` which includes more detailed comments and 
 plotting code. 
-It is also possible to directly open and run the notebook in Google Colab by clicking on this badge:
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dingo-gw/dingo-T1/blob/main/02_inference_with_pretrained_model/tutorial_inference_with_DINGO-T1.ipynb)
+Due to Python version conflicts, it is currently not possible to run the notebook in Google Colab.
 
 ### 1. Download the DINGO-T1 model from Zenodo
 The DINGO-T1 model is publicly available on [Zenodo](https://zenodo.org/records/17726076).
