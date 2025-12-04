@@ -1,6 +1,6 @@
 # DINGO-T1: Flexible Gravitational-Wave Parameter Estimation with Transformers
 
-This is the companion repository for the preprint "Flexible Gravitational-Wave Parameter Estimation with Transformers", 
+This is the companion repository for the preprint ["Flexible Gravitational-Wave Parameter Estimation with Transformers"](https://arxiv.org/abs/2512.02968), 
 which introduces a flexible transformer-based architecture paired with a training strategy that enables adaptation 
 to diverse gravitational wave~(GW) analysis settings at inference time.
 We call the final model DINGO-T1 (DINGO Transformer, version 1) which we make publicly available on 
@@ -42,8 +42,8 @@ as the DINGO-T1 code is not yet included in the main branch.
 
 
 ## Tutorial: Inference with the DINGO-T1 model
-The goal of this tutorial is to demonstrate how to download and perform inference with the DINGO-T1 model on the event 
-GW190701_203306. 
+The goal of this tutorial is to demonstrate how to download and perform inference with the DINGO-T1 model on 
+an example event.
 We will analyze the event GW190701_203306 with different detector configurations 
 (H vs. HL vs. HLV) which replicates an example study from the paper, and compare the posterior distributions:
 
@@ -61,8 +61,7 @@ It is also possible to directly open and run the notebook in Google Colab by cli
 The DINGO-T1 model is publicly available on [Zenodo](https://zenodo.org/records/17726076).
 To download the model, navigate into the folder `02_inference_with_pretrained_models` and run
 ```shell
-pip install zenodo_get
-zenodo_get 17726076
+!wget -O dingo_t1.pt "https://zenodo.org/records/17726076/files/dingo_t1.pt?download=1"
 ```
 in the command line.
 
@@ -159,7 +158,7 @@ Please also refer to the documentation: https://dingo-gw.readthedocs.io.
 }
 ```
 
-If this is based on the `dingo-gw` code, please also cite the following (and 
+Since DINGO-T1 is based on the `dingo-gw` code, please also cite the following (and 
 refer to the Reference section of the 
 [dingo README](https://github.com/dingo-gw/dingo#references) for other optional 
 citations).
